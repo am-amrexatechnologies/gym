@@ -1,0 +1,20 @@
+.pushDayClass {
+    background-color: burlywood;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.pullDayClass {
+    background-color: salmon;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.legDayClass {
+    background-color: darkorange;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
