@@ -4,148 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Gym - Workout Plan</title>
 </head>
 <body>
-    <div id="idHeaderDiv">
-        <h1>Gym</h1>
-    </div>
-    <div id="idBodyDiv">
-        <div id="idBodyGymPushDiv" class="pushDayClass">
-            <h2>Push (Day 1)</h2>
-            <ul>
-                <li>
-                    <p>Bench Press</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Chest Press</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Shoulder Press</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Side Raises</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Triceps Pushdown</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Cross Body Triceps Extensions</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+    <header id="idHeaderDiv">
+        <div class="header-content">
+            <h1>Gym Routine</h1>
         </div>
-        <div id="idBodyGymPullDiv" class="pullDayClass">
-            <h2>Pull (Day 2)</h2>
-            <ul>
-                <li>
-                    <p>Lat Pulldown</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Rows</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Lat Rows</p>
-                    <ul>
-                        <li>
-                            <p>3 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Cable Hammer Curls</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Preacher Curls</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+    </header>
+    <main id="idBodyDiv" class="container">
+        <div id="idBodyGymPushDiv" class="workout-card pushDayClass">
+            <div class="day-badge">Day 1</div>
+            <h2>Push</h2>
+            <div class="exercises-list">
+                <div class="exercise">
+                    <div class="exercise-name">Bench Press</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Chest Press</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Shoulder Press</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Side Raises</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Triceps Pushdown</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Cross Body Triceps Extensions</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+            </div>
         </div>
-        <div id="idBodyGymLegsDiv" class="legDayClass">
-            <h2>Legs (Day 3)</h2>
-            <ul>
-                <li>
-                    <p>Hack-Squats</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Leg Extensions</p>
-                    <ul>
-                        <li>
-                            <p>6 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Leg Curls</p>
-                    <ul>
-                        <li>
-                            <p>4 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Calf Raises</p>
-                    <ul>
-                        <li>
-                            <p>3 Sets, 8 - 10 Reps</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+
+        <div id="idBodyGymPullDiv" class="workout-card pullDayClass">
+            <div class="day-badge">Day 2</div>
+            <h2>Pull</h2>
+            <div class="exercises-list">
+                <div class="exercise">
+                    <div class="exercise-name">Lat Pulldown</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Rows</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Lat Rows</div>
+                    <div class="exercise-detail">3 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Cable Hammer Curls</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Preacher Curls</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+            </div>
         </div>
-    </div>
+
+        <div id="idBodyGymLegsDiv" class="workout-card legDayClass">
+            <div class="day-badge">Day 3</div>
+            <h2>Legs</h2>
+            <div class="exercises-list">
+                <div class="exercise">
+                    <div class="exercise-name">Hack-Squats</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Leg Extensions</div>
+                    <div class="exercise-detail">6 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Leg Curls</div>
+                    <div class="exercise-detail">4 Sets, 8-10 Reps</div>
+                </div>
+                <div class="exercise">
+                    <div class="exercise-name">Calf Raises</div>
+                    <div class="exercise-detail">3 Sets, 8-10 Reps</div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
